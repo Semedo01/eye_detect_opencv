@@ -19,7 +19,7 @@ while True:
 
     faces_rect = haar_cascade.detectMultiScale(face, scaleFactor=1.1, minNeighbors=10)
 
-    closed = 0
+    
 
     if len(faces_rect) != 0:
         print(f'Number of faces found = {len(faces_rect)}')
